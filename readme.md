@@ -218,10 +218,3 @@ set PATH=C:\tools\cuda\bin;%PATH%
 ```
 This should properly set up CUDA 11.8 to be used for your projects via `cmd.exe`.
 
-
-
-
-
-
-
-
