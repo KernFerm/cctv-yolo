@@ -78,9 +78,6 @@ python main.py
 - YOLOv7
 - YOLOv8
 
-## Exporting Yolo 
-- [Repo: Exporting Yolo](https://github.com/KernFerm/exporting-YOLO)
-
 ## Contributions
 
 Contributions are welcome! If you have ideas for improvement, feel free to submit a pull request or open an issue.
