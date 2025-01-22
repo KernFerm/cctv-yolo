@@ -23,7 +23,7 @@ This project provides a real-time object detection system using **YOLO (You Only
 ### Dependencies
 Install the required Python packages:
 ```
-pip install ultralytics opencv-python numpy gradio torch bettercam
+pip install ultralytics opencv-python numpy gradio torch bettercam cupy-cuda11x onnx onnxruntime-gpu onnx-simplifier onnxruntime
 ```
 
 ## Configuration
