@@ -88,6 +88,8 @@ This project is licensed under the `MIT License`.
 
 - [Gradio](https://gradio.app/) for the user-friendly interface.
 
+- Forked from [SanshruthR/CCTV_YOLO](https://github.com/SanshruthR/CCTV_YOLO)
+
 
 ### 1. **Download the NVIDIA CUDA Toolkit 11.8**
 
