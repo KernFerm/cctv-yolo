@@ -13,6 +13,10 @@ This project provides a real-time object detection system using **YOLO (You Only
 2. **Object Detection**: Performs object detection on resized low-resolution frames.
 3. **Visualization**: Scales the detection results back to the original resolution and overlays bounding boxes on the video.
 
+---
+# READ AND FOLLOW DIRECTIONS IN THE README.MD to AVOID ISSUES
+---
+
 ## Installation
 
 ### Prerequisites
