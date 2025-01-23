@@ -16,7 +16,8 @@ This project provides a real-time object detection system using **YOLO (You Only
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.11 or higher
+- use the `install_python.bat` to install python 3.11.6
 - A compatible YOLO model (e.g., `yolov5n.pt`, `yolov8n.pt`)
 - A GPU with CUDA support (optional, but recommended)
 
