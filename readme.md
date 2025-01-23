@@ -82,6 +82,10 @@ python main.py
 
 Contributions are welcome! If you have ideas for improvement, feel free to submit a pull request or open an issue.
 
+# Screenshot
+<img src="https://raw.githubusercontent.com/KernFerm/cctv-yolo/main/it-works.png" alt="pic" width="300">
+
+
 
 ## License
 This project is licensed under the `MIT License`.
