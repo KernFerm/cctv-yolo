@@ -29,3 +29,7 @@ Thumbs.db
 *.log
 *.swp
 *.bak
+
+# Ignore Images
+*.png
+*.jpeg
