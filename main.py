@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import gradio as gr
 import torch
-from bettercam import Camera
+from bettercam import create, device_info, output_info  # Use the integrated BetterCam functions
 import config  # Import configurations from config.py
 import onnx
 from onnxruntime import InferenceSession, SessionOptions
@@ -61,9 +61,18 @@ def detect_and_draw(frame):
 
 # Function to process the video stream using BetterCam
 def process_stream():
-    # Initialize BetterCam
-    cam = Camera()
-    cam.set_resolution(*config.CAM_RESOLUTION)  # Set desired resolution
+    # Create a BetterCam instance
+    cam = create(
+        device_idx=0,
+        output_idx=None,
+        region=None,
+        output_color="RGB",
+        nvidia_gpu=True,  # Use NVIDIA GPU if available
+        max_buffer_len=64
+    )
+    print("Device Info:\n", device_info())
+    print("Output Info:\n", output_info())
+
     cam.start()
 
     try:
