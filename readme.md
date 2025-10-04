@@ -16,8 +16,6 @@ This project provides a real-time object detection system using **YOLO (You Only
 ---
 # READ AND FOLLOW DIRECTIONS IN THE README.MD to AVOID ISSUES
 ---
-- [https://discord.gg/FxJd3PxXbc](https://discord.gg/FxJd3PxXbc)
-
 
 ## Installation
 
