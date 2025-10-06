@@ -6,6 +6,6 @@ numpy
 ultralytics
 cupy-cuda11x
 onnx==1.19.0
-onnxruntime-gpu==1.21.0
+onnxruntime-gpu==1.23.0
 onnx-simplifier
 onnxruntime==1.21.0
