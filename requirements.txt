@@ -5,7 +5,7 @@ bettercam
 numpy
 ultralytics
 cupy-cuda11x
-onnx==1.19.0
+onnx==1.19.1
 onnxruntime-gpu==1.23.0
 onnx-simplifier
 onnxruntime==1.23.1
